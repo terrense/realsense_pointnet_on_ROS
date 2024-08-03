@@ -23,3 +23,14 @@ This project demonstrates the integration of PointNet with ROS to process point 
 1. Install the required libraries:
    ```bash
    pip install -r requirements.txt
+
+2. Clone this repository:
+   ```bash
+   git clone https://github.com/yourusername/ros_pointnet.git
+   cd ros_pointnet
+
+3.  Build the ROS package:
+     ```bash
+     catkin_make
+     source devel/setup.bash
+
