@@ -34,3 +34,19 @@ This project demonstrates the integration of PointNet with ROS to process point 
      catkin_make
      source devel/setup.bash
 
+## Usage
+To launch the ROS nodes:
+```bash
+roslaunch ros_pointnet realsense_pointnet.launch
+
+## Code Structure
+
+src/
+pointnet.py: Contains the implementation of the PointNet model.
+ros_pointnet.py: Contains the ROS node for integrating PointNet.
+mvs.py: Contains the MVS algorithm implementation for generating point clouds.
+launch/
+realsense_pointnet.launch: Launch file for starting the ROS nodes.
+scripts/
+mvs_node.py: ROS node for running the MVS algorithm.
+pointnet_node.py: ROS node for running PointNet.
